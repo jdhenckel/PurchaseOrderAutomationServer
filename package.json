@@ -1,0 +1,28 @@
+{
+  "name": "poa-server",
+  "version": "1.0.0",
+  "description": "Purchase Order Automation Server",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/nodemon/bin/nodemon.js src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdhenckel/PurchaseOrderAutomationServer.git"
+  },
+  "author": "John Henckel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jdhenckel/PurchaseOrderAutomationServer/issues"
+  },
+  "homepage": "https://github.com/jdhenckel/PurchaseOrderAutomationServer#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
